@@ -1,0 +1,23 @@
+.general-information{
+    display: flex;
+    justify-content:space-between;
+    gap: 2rem;
+    margin-top: 2rem;
+    padding: 1rem;
+    width: 100vw;
+    border: 10px black solid;
+}
+.me{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.my-imformation{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+p{
+    color: #ffffff;
+}
