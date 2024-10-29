@@ -1,4 +1,5 @@
 import { ApiPhoto } from "../../Iu/ApiPhoto/ApiPhoto"
+import { Atlas } from "../../Iu/Atlas/Atlas"
 import { Characters } from "../../Iu/Characters/Characters"
 import "./Projects.css"
 
@@ -34,23 +35,12 @@ export const Projects = () =>{
         </div>
         <div className="projects-cards">
             <div className="img-projects">
-            <ApiPhoto/>
+            <Atlas/>
             </div>
             <div className="description">
                 <p>
-                Projecto en el cual se realiza el consumo de una api donde se expone un ejemplo de tienda y su carrito de compras
-                <a href="https://api-store-lac.vercel.app/" target="_blank"> conocer mas...</a>
-                </p>
-            </div>    
-        </div>
-        <div className="projects-cards">
-            <div className="img-projects">
-            <ApiPhoto/>
-            </div>
-            <div className="description">
-                <p>
-                Projecto en el cual se realiza el consumo de una api donde se expone un ejemplo de tienda y su carrito de compras
-                <a href="https://api-store-lac.vercel.app/" target="_blank"> conocer mas...</a>
+                simulacion de sitio web en el cual se puso en practica el manejo de html y css
+                <a href="https://atlas-khaki-beta.vercel.app/" target="_blank"> conocer mas...</a>
                 </p>
             </div>    
         </div>
