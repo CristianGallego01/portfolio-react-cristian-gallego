@@ -10,7 +10,7 @@ export const AboutMe = () => {
       <Photo/>
       </section>
       <section className='my-imformation'>
-        <p>
+        <p className='me-descripcion'>
         Soy un joven que posee conocimientos en diversas áreas, tales como la contaduría y el servicio técnico,
         entre otros. Actualmente, estoy cursando estudios en el Servicio Nacional de Aprendizaje (SENA), donde
         me estoy formando para obtener el tecnólogo en Análisis y Desarrollo de Software (ADSO). Este programa 

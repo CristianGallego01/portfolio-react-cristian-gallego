@@ -1,0 +1,32 @@
+.projects{
+    display: flex;
+    flex-direction: row;
+    width: 98vw;
+    margin: 1rem;
+    border: 1px solid black;
+    padding: 1rem;
+    gap: 1rem;
+}
+.projects-cards{
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    gap: 1rem;
+    background-color: #000000;
+    border-radius: 1rem;
+}
+.description{
+    width: 60%;
+    font-size: 1.4rem;
+    color:#ffffff ;
+}
+.tittle{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: #ffffff;
+    font-size: 2rem;
+}
+.img-projects{
+    padding-top: .7rem;
+}

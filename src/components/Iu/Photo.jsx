@@ -5,8 +5,8 @@ import "./Photo.css"
 export const Photo = () => {
 
     return(
-        <section className="cristian-photo">
-            <img src={fotography} alt="" />
+        <section >
+            <img className="cristian-photo" src={fotography} alt="" />
         </section>
     )
 }
