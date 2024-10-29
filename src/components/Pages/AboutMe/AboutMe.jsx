@@ -1,6 +1,6 @@
 import React from 'react'
 import './AboutMe.css'
-import { Photo } from '../../Iu/Photo.jsx'
+import Photo from "../../Iu/Photo"
 
 export const AboutMe = () => {
   return (
