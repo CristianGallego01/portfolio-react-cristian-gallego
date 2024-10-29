@@ -1,13 +1,15 @@
 import React from 'react'
 import './AboutMe.css'
+import { Photo } from '../../Iu/photo'
+
 export const AboutMe = () => {
   return (
     <>
     <div className='general-information'>
       <section className='me'>
-        <p>323223</p>
+      <Photo/>
       </section>
-      <section className=''>
+      <section className='my-imformation'>
         <p>
         Soy un joven que posee conocimientos en diversas áreas, tales como la contaduría y el servicio técnico,
         entre otros. Actualmente, estoy cursando estudios en el Servicio Nacional de Aprendizaje (SENA), donde

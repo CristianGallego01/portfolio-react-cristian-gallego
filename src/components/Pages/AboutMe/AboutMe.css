@@ -11,12 +11,14 @@
     width: 50%;
     display: flex;
     justify-content: center;
+    
 }
-.my-imformation{
+.my-imformation {
     width: 50%;
     display: flex;
     justify-content: center;
     padding: 1rem;
+    border: 10px solid purple;
 }
 p{
     color: #ffffff;
