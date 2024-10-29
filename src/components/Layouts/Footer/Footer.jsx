@@ -4,7 +4,7 @@ export const Footer = () =>{
 return(
     <>
     <section className="contact">
-    <div>
+    <div className="contact-me">
     <h2>Contactame</h2>
     <p>
     Si desea ponerse en contacto, preguntas o comentarios no dude en hacerlo atravez de los siguientes medios
@@ -17,13 +17,16 @@ return(
     </p>
     </div>
 
-    <div>
-    <div className="you-name">
+    <div className="your-contact">
+    <h2>Te contactamos</h2>
     <p>
-    nombre :
+    Nombre 
     </p>
     <input type="text" />
-    </div>
+    <p>
+    Correo
+    </p>
+    <input type="text" />
     </div>
     </section>
     

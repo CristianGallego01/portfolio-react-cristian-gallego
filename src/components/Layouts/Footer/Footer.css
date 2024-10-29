@@ -1,4 +1,21 @@
 .contact{
-margin: 3rem;
 padding: 1rem;
+gap: 3rem;
+width: 100vw; 
+display: flex;
+flex-direction: row;
+background-color: rgb(11, 27, 87);
+}
+.contact-me{
+    gap: 5rem;
+    color: #ffff;
+    border: 2px solid purple;
+    width: 50%;
+}
+p{
+    margin-top: 1rem; 
+}
+
+.your-contact{
+    color: #ffff;
 }

@@ -8,4 +8,8 @@ body{
     flex-direction: column;
     justify-content: baseline;
     flex-direction: center;
+    width: 100vw;
+}
+#root{
+    width: 100vw;
 }
